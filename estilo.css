@@ -1,0 +1,459 @@
+/*Estilo logo*/
+
+body, html {
+    background-color: rgb(8, 8, 8);
+    align-items: center;
+    height: 100%;
+    
+}
+
+
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+   
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.banner {
+    height: 100vh;
+    background-image: url(../Logos/Screenshot_1.png);
+   background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+   
+}
+
+.banner h1 {
+    font-size: 30px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 700;
+color: #F4CF8B;
+
+}
+
+.banner p {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: #F4CF8B;
+    
+}
+/* Barra de nvaegação 
+--------------------------------*/
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 8vh;
+}
+
+.navbar {
+    padding: 15px 0px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 190px;
+  
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #F4CF8B;
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+
+
+
+
+
+
+
+/* Fim de nvaegação 
+--------------------------------*/
+
+
+
+
+/* Inicio conteudo
+--------------------------------*/
+
+.communityfundo{
+    padding-right: 2000px;
+}
+
+.container2 {
+    text-align: center;
+    
+}
+
+.email-box {
+    height: 40px;
+    justify-content: center;
+    
+}
+
+.email-box i {
+    background: #F4CF8B;
+    width: 40px;
+    line-height: 40px;
+}
+
+.tbox,.btn{
+    border: none;
+    outline: none;
+}
+
+.tbox {
+ width: 0px;
+ transition: 0.6s;
+}
+
+
+.email-box:hover > .tbox,.tbox:focus{
+    width: 260px;
+    padding: 0 10px;
+}
+.btn {
+    background: #F4CF8B;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 2em;
+}
+
+
+    
+
+
+
+.button img {
+   height: 88px;
+   
+
+}
+
+.button span {
+    font-size: 30px;
+    position: relative;
+    
+    
+}
+
+
+
+
+.gifherois{
+
+padding: auto;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    margin-left: 1000px;
+}
+    
+
+
+.ListaDePersonagens{
+  
+   height: 250px;
+   text-align: center;
+  
+ 
+}
+/* Fim conteudo 
+--------------------------------*/
+
+
+
+/* Rodape 
+--------------------------------*/
+
+/* Tipografia
+--------------------------------*/
+
+
+
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: #F4CF8B;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+}
+
+p {
+    color: #F4CF8B;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    h2 {
+     font-size: 2em;
+    }
+    
+    
+
+ }
+ 
+ /* Small devices (landscape phones, less than 768px)*/
+ @media (max-width: 767.98px) { 
+    h2 {
+        font-size: 3em;
+    }
+ }
+ 
+ /* Medium devices (tablets, less than 992px)*/
+ @media (max-width: 991.98px) {
+    h2 {
+        font-size: 4em;
+    }
+ }
+ 
+ /* Large devices (desktops, less than 1200px)*/
+ @media (max-width: 1199.98px)  {
+    h2 {
+        font-size: 5em;
+    }
+    }
+/*Fim Tipografia
+--------------------------------*/
+
+
+
+/*CSS GRID
+--------------------------------*/
+
+/* Paralax
+--------------------------------*/
+
+.test {
+    color: #F4CF8B;
+    background-color: rgb(8, 8, 8);
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+
+.caixa1, .caixa2 {
+   
+    height: 100%;
+    
+
+}
+
+.caixa1 {
+   background-image: rgb(8, 8, 8); 
+   height: 50%;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.caixa2 {
+background-image: url(/Logos/imagem1.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 100%;
+}
+
+/* Paralax fim
+--------------------------------*/
+
+/* FOOTER
+--------------------------------*/
+
+:root{
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+
+.footer-link {
+    text-decoration: none;
+    
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1{
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link:hover {
+   opacity: 0.8;
+
+}
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;
+}
+
+.footer-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    margin: 1.5rem;
+}
+
+.footer-list p{
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.footer-list .footer_link {
+    color: var(--color-neutral-30);
+    transition: all 0,4s;
+}
+
+.footer-list .footer_link:hover {
+    color: #F4CF8B;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color: #F4CF8B;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+#input_group button:hover{
+    opacity: 0.8;
+    transition: all 0.4s;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width:768px) {
+    #footer_content{
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+    #footer_content{
+    grid-template-columns: repeat(1,1fr);
+    padding: 3rem 2rem;
+    }
+}
